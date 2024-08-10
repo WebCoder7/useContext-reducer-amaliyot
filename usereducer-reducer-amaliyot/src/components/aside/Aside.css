@@ -1,0 +1,46 @@
+.colors-wrapper{
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+ul{
+    padding: 0.5rem;
+}
+
+
+.brands-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 0.8rem;
+
+}
+
+
+.brands-wrapper input[type="radio"] {
+    display: inline-block;
+    margin-right: 0.5rem; 
+
+}
+
+
+.aside {
+    width: 200px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+.aside h2 {
+    margin-top: 0;
+}
+
+.brands-list,
+.colors-list {
+    list-style: none;
+    padding: 0;
+}
+
+.brands-list li,
+.colors-list li {
+    margin-bottom: 10px;
+}

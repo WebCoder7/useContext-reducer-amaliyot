@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sort-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.sort-wrapper label {
+    margin-right: 5px;
+}
